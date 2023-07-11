@@ -1,4 +1,5 @@
-
+#One of the 4 OOP concepts. inheritance is the process of passing down code from one class to the next.
+#Examples below
 class Animal:
 
     alive = True
