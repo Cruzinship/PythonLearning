@@ -16,15 +16,14 @@ class Sqaure(Rectangle):
 
 class Cube(Rectangle):
 
-    def __int__(self, length, width, height):
-        super().__init__(length, width)
-        self.height = height
-
+    def __init__(self, length, width, height):
+      super().__init__(length,width)
+      self.height = height
     def volume(self):
-        return self.length*self.width*self.height
+       return self.length*self.width*self.height
 
 sqaure1 = Sqaure(3,3)
-#cube1 = Cube(3, 3, 3)
+cube1 = Cube(3,3,3)
 
 print(sqaure1.area())
-#print(cube1.volume())
+print(cube1.volume())
